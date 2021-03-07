@@ -13,12 +13,16 @@ textarea {
   padding: 10px;
 }
 
-.jumbotron {
-  text-align: center;
+.w3-center {
+  
   background-color: #001A4B;
   color: #E8E1DF;
   border-radius: 0;
   border-bottom: 10px solid #E8E1DF;
+}
+
+.para1 {
+  font-size: 15px;
 }
 
 .description{
