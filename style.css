@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 13px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -15,10 +15,10 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: #001A4B;
+  color: #E8E1DF;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #E8E1DF;
 }
 
 .description{
