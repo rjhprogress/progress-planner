@@ -22,12 +22,36 @@
         <p class="lead">Failing to Prepare Is Preparing to Fail!<br> This App helps you win at managing time more
             effectively.<br> Type a note in the text box beside an hour, then press the save button to save
             it on the schedule. </p>
+        <p class="lead">Past = Magenta | Current = Green | Future = Gold</p>
         <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
         <!-- Timeblocks go here -->
-        <div id="hour-1" class="row time-block future present past"></div>
-        <div id="hour-2" class="row time-block future present past"></div>
+        <div id="hour-0" class="row time-block future present past">
+            <div class="col-md-1 hour">12AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="btn saveBtn col-md-1">
+                SAVE
+            </button>
+        </div>
+
+        <div id="hour-1" class="row time-block future present past">
+            <div class="col-md-1 hour">1AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="btn saveBtn col-md-1"> SAVE
+            </button>
+        </div>
+
+        <div id="hour-2" class="row time-block future present past">
+            <div class="col-md-1 hour">2AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="btn saveBtn col-md-1">
+                SAVE
+            </button>
+        </div>
+
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
